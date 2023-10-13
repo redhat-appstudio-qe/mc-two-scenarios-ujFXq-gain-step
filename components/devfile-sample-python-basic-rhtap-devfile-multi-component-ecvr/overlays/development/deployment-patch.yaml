@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-python-basic-rhtap-devfile-multi-component-ecvr
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/rhtap-demo-tpgd-tenant/mc-two-scenarios/devfile-sample-python-basic-rhtap-devfile-multi-component-ecvr@sha256:e52d6aaa44768b0f18e709de18518e13fcc5c559e298a286596e263bd69ff94f
+        name: my-python
+        resources: {}
+status: {}
