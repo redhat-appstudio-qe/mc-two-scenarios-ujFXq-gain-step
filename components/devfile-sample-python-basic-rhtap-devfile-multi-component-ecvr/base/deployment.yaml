@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-python-basic-rhtap-devfile-multi-component-ecvr
     spec:
       containers:
-      - image: python-image:latest
+      - image: quay.io/redhat-appstudio-qe/rhtap-demo-tpgd-tenant/mc-two-scenarios/devfile-sample-python-basic-rhtap-devfile-multi-component-ecvr@sha256:e52d6aaa44768b0f18e709de18518e13fcc5c559e298a286596e263bd69ff94f
         name: my-python
         ports:
         - containerPort: 8081
